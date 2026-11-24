@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "ado-remote-mcp": {
+      "url": "https://mcp.dev.azure.com/REPLACE_WITH_APPROVED_ORGANIZATION",
+      "type": "http",
+      "headers": {
+        "X-MCP-Toolsets": "wit",
+        "X-MCP-Readonly": "true"
+      }
+    }
+  },
+  "inputs": []
+}

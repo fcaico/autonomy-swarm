@@ -1,0 +1,6 @@
+# Optional Copilot Dynamic Workflow authoring brief
+Use only if enterprise policy permits the preview and the installed Copilot CLI supports it. Ask Copilot CLI in a trusted development checkout to create (not run) a dynamic workflow using its installed authoring guidance:
+
+Create a repository-scoped dynamic workflow named autonomy-story-delivery implementing swarm/WORKFLOW.md. Use the swarm-* custom agents by ID, immutable candidate commits, a single writer, independent parallel read-only reviews, a deterministic state machine and persisted per-attempt evidence. Require human plan approval, and in shadow mode human approval after each increment. Require trusted independent build/test checks and always human final acceptance. Reject unknown risk, missing checks, stale SHAs, and unresolved findings; max two rework attempts. Use a human-controlled sandbox with no live hardware, deploy, push or merge capability. If checkpoint/resume or agent-specific permission enforcement is unavailable, stop rather than simulate approval. Return the extension code and tests for human review. Do not execute it or enable broad permissions.
+
+The starter does not include an extension implementation: installed preview API/version and enterprise policy are not known. See https://docs.github.com/en/copilot/how-tos/use-copilot-agents/use-dynamic-workflows .

@@ -1,0 +1,46 @@
+{
+  "snapshot": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "risk": "low",
+  "mode": "shadow",
+  "embedded_relevant": false,
+  "safety_relevant": false,
+  "escalations": [],
+  "reviews": [
+    {
+      "role": "cpp",
+      "snapshot": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "verdict": "pass",
+      "findings": [],
+      "gaps": []
+    },
+    {
+      "role": "test",
+      "snapshot": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "verdict": "pass",
+      "findings": [],
+      "gaps": []
+    }
+  ],
+  "checks": {
+    "red": {
+      "candidate": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "expected_failure_observed",
+      "log": "EXAMPLE/red.log"
+    },
+    "green": {
+      "candidate": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "pass",
+      "log": "EXAMPLE/green.log"
+    },
+    "refactor": {
+      "candidate": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "pass",
+      "log": "EXAMPLE/refactor.log"
+    },
+    "host_regression": {
+      "candidate": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "pass",
+      "log": "EXAMPLE/host_regression.log"
+    }
+  }
+}
